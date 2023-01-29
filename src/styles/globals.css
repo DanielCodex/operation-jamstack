@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  color: white;
-  background-color: rgb(15 23 42);
+
+img {
+  max-width: 100%;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-[1140px];
+  }
 }
